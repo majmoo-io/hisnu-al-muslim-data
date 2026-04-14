@@ -1,11 +1,13 @@
 /**
- * Makes the sunnah.com dataset by scraping and parsing the html 
+ * Makes the sunnah.com dataset by scraping and parsing the html
  */
+import { monorepoRoot } from "@monorepo/root";
 import * as cheerio from "cheerio";
-import { monorepoRoot } from '@monorepo/root'
 
-
-const sourceFilePath = new URL('./sunnah-com-hisnu-al-muslim.html', import.meta.url)
+const sourceFilePath = new URL(
+  "./sunnah-com-hisnu-al-muslim.html",
+  import.meta.url,
+);
 const outputDirectory = new URL("data/ar.al-qahtani/", monorepoRoot.url);
 
 const html = await Bun.file(sourceFilePath).text();
@@ -27,7 +29,7 @@ const chapterMap = new Map(
         .replace(/\s+/g, "-");
       return [chapterNumber, title];
     }),
-); 
+);
 
 const promises = $(".chapter")
   .toArray()
@@ -81,7 +83,7 @@ const promises = $(".chapter")
               if (zikrText) {
                 const lastItem = parsedTextParts[parsedTextParts.length - 1];
                 if (lastItem && lastItem.type === "zikr") {
-                  lastItem.text += " " + zikrText;
+                  lastItem.text += ` ${zikrText}`;
                 } else {
                   parsedTextParts.push({ type: "zikr", text: zikrText });
                 }
