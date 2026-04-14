@@ -1,1 +1,1 @@
-export const monorepoRoot = import.meta
+export const monorepoRoot = import.meta;

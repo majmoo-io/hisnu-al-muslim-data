@@ -1,0 +1,28 @@
+title: أذكار الأذان
+chapter: 15
+items: 
+  - parts: 
+      - type: instruction
+        text: يقول مثل ما يقول المؤذن إلا في (حي على الصلاة ، وحي على الفلاح) فيقول
+      - type: zikr
+        text: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.
+    reference: "Al-Bukhari 1/152, Muslim 1/288."
+  - parts: 
+      - type: zikr
+        text: وَأَنَا أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ ، وَأَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللَّهِ رَبّاً ، وَبِمُحَمَّدٍ رَسُولاً وَبِالْإِسْلَامِ دِيناً
+    reference: 1. Muslim 1/290. 2. Ibn Khuzaymah 1/220.
+  - parts: 
+      - type: instruction
+        text: يُصَلِّي عَلَى النَّبِيِّ صلى الله عليه وسلم بَعْدَ فَرَاغِهِ مِنْ إِجَابَةِ الْمُؤَذِّنِ
+    reference: Muslim 1/288
+  - parts: 
+      - type: zikr
+        text: "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّداً الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَاماً مَحْمُوداً الَّذِي وَعَدْتَهُ [إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ]"
+    reference: "Al-Bukhari 1/152, and the addition between brackets is from Al-Bayhaqi 1/410 with a good (Hasan) chain of narration. See 'Abdul-Azlz bin Baz's Tuhfatul-'Akhyar, pg. 38."
+  - parts: 
+      - type: instruction
+        text: يَدْعُو لِنَفسِهِ بَيْنَ الْأَذَانِ وَالْإِقَامَةِ فَإِنَّ الدُّعَاءَ حِينَئِذٍ لاَ يُرَدُّ
+    reference: "At-Tirmidhi, Abu Dawud, Ahmed. See Irwaa Al-Ghalil 1/262"
+topics: 
+  - Athan
+  - Prayer
